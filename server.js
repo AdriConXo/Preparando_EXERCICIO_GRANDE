@@ -1,12 +1,11 @@
 const express = require("express");
 const path = require("path");
+
 const app = express();
 
-
-// Accedo o arquivo estático
+// Servir la carpeta public como archivos estáticos
 app.use(express.static(path.join(__dirname, "public")));
 
-//START SERVER
-app.listen(3000, function () {
- console.log("Server running");
+app.listen(3000, () => {
+    console.log("Servidor corriendo en http://localhost:3000");
 });

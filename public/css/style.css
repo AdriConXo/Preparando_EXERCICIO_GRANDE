@@ -20,3 +20,57 @@ a{
     height: 150px;
     
 }
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 80px;
+    height: 100vh;
+    background: linear-gradient(to bottom, #4a90e2, #2a60a0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* Contenido principal */
+#contenido-principal {
+    flex-grow: 1; /* Ocupa todo el espacio restante */
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+/* Botones del menú */
+.boton-menu {
+    background: none;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.boton-menu:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Iconos del menú lateral */
+.icono-menu {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.boton-menu:hover .icono-menu {
+    transform: scale(1.2);
+}

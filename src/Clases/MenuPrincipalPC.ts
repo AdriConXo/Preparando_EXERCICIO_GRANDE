@@ -1,7 +1,7 @@
 import { EtiquetaA } from "../Etiquetas/EtiquetaA";
 import { EtiquetaDivWithImg } from "../Etiquetas/EtiquetaDivWithImg";
 import { EtiquetaImg } from "../Etiquetas/EtiquetaImg";
-import { Navegacion } from "./Navegacion";
+import { Navegacion } from "./Navegación";
 
 class NavegacionMenuPrincipal extends Navegacion{
     private referenciaEtiquetaA: EtiquetaA;// Clase da etiquetaA

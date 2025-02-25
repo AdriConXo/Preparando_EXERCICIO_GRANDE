@@ -1,4 +1,4 @@
-import { LinksPaxinas } from "./LinksPaxinas.ts";
+import { LinksPaxinas } from "./LinksPaxinas";
 
 class LinksHome extends LinksPaxinas{
     private referencia: any;// Atributo ou variable local dentro da clase
